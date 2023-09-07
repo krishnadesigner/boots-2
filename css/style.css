@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.top-header .top h5 {
+    font-size: 14px;
+    color: gray;
+    font-weight: 300;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.navbar-brand-img {
+    font-size: 28px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.navbar-brand-icon {
+    color: #51ce51;
+}
+
+.model-body h6 {
+    font-size: 12px;
+}
+
+
+.list-group .group-item-img {
+    width: 70px;
+    height: 70px;
+}
+
+.custom-btn {
+    width: 150px;
+    height: 40px;
+    background-color: #51ce51;
+    border: none;
+    border-radius: 8px;
+}
+
+.custom-btn:hover {
+    color: white;
+}
+
+.navbar-collapse .custom-btn .nav-link {
+    color: white;
+}
+
+.custom-btn .navbar-collapse:hover {
+    color: white;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
